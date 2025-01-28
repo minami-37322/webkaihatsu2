@@ -2,6 +2,13 @@ package com.example.demo2.form;
 
 public class CalcForm {
     private String num1;
+    private String operator;
+    public String getOperator() {
+        return operator;
+    }
+    public void setOperator(String operator) {
+        this.operator = operator;
+    }
     public String getNum1() {
         return num1;
     }
@@ -25,10 +32,7 @@ public class CalcForm {
     public String toString() {
         return "CalcForm [num1=" + num1 + ", num2=" + num2 + "]";
     }
-    public String getOperator() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getOperator'");
-    }
+  
 
     
 

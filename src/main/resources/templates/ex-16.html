@@ -7,9 +7,9 @@
 </head>
 <body>
     <h1>チャットホームページ</h1>
-    <form action="/each/post" method="post">
-    名前：<input type="text" name ="name" required>
-    コメント：<input type="text" name="name" required>
+    <form th:action="@{/each/post}" method="post">
+     <label>名前：<input type="text" name ="name" ></label><br>
+    <label>コメント：<input type="text" name="name"></label><br>
     <button type="submit">投稿！</button>
 </form>
 <ul>
